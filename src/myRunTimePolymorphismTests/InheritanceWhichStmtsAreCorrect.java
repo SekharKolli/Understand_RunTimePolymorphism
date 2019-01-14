@@ -27,6 +27,7 @@ class ChildTwo extends Parent {
 
 public class InheritanceWhichStmtsAreCorrect {
 
+	@SuppressWarnings("unused") // Hiding warning to help focus on concept
 	public static void main(String[] args) {
 
 		Parent p;
